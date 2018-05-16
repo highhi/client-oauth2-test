@@ -1,4 +1,4 @@
-const { getNewTokenUrl, getToken } = require('./util/oauth')
+const { getNewTokenUrl } = require('./util/oauth')
 const { getRequest } = require('./util/api')
 
 const authentication = document.getElementById('authentication')
